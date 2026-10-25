@@ -1,0 +1,24 @@
+{
+  "name": "@kanchingyg/repomcp",
+  "version": "0.1.0",
+  "description": "Universal repo-to-MCP bridge with multi-harness configs and model/checkpoint adapters",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/bridge.ts",
+    "./bridge": "./src/bridge.ts",
+    "./runtime": "./src/bridge.ts"
+  },
+  "publish": {
+    "include": [
+      "src/**/*.ts",
+      "LICENSE",
+      "README.md",
+      "SKILL.md",
+      "jsr.json"
+    ],
+    "exclude": [
+      "src/**/*.test.ts",
+      "src/**/*.spec.ts"
+    ]
+  }
+}
