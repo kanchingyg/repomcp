@@ -1,0 +1,59 @@
+{
+  "name": "@kanchingyg/repomcp",
+  "version": "0.1.1",
+  "description": "Universal repo-to-MCP bridge with multi-harness configs and model/checkpoint adapters",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "repomcp": "./dist/cli.js"
+  },
+  "main": "./dist/bridge.js",
+  "exports": {
+    ".": "./dist/bridge.js",
+    "./bridge": "./dist/bridge.js",
+    "./runtime": "./dist/bridge.js"
+  },
+  "files": [
+    "dist",
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "jsr.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && vitest run",
+    "prepublishOnly": "npm run build",
+    "prepack": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "publint": "^0.3.12",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5"
+  },
+  "author": "Augusto Cerrutti <augustocerruttisatto@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanchingyg/repomcp.git"
+  },
+  "mcpName": "io.github.kanchingyg/repomcp",
+  "homepage": "https://github.com/kanchingyg/repomcp#readme",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "cli",
+    "typescript",
+    "claude-code",
+    "cursor",
+    "openapi",
+    "embeddings",
+    "ai-agents",
+    "ollama",
+    "developer-tools"
+  ]
+}
