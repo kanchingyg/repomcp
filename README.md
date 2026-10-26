@@ -6,10 +6,6 @@
 [![JSR Score](https://jsr.io/badges/@kanchingyg/repomcp/score)](https://jsr.io/@kanchingyg/repomcp/score)
 [![Runtime](https://img.shields.io/badge/runtime-Node_%7C_Bun_%7C_Deno-f9f1e1)](https://github.com/kanchingyg/repomcp)
 [![license](https://img.shields.io/github/license/kanchingyg/repomcp)](https://github.com/kanchingyg/repomcp/blob/HEAD/LICENSE)
-[![npm](https://img.shields.io/npm/v/repomcp)](https://www.npmjs.com/package/@kanchingyg/repomcp)
-[![JSR](https://jsr.io/badges/@kanchingyg/repomcp)](https://jsr.io/@kanchingyg/repomcp)
-[![Bun](https://img.shields.io/badge/runtime-Node_%7C_Bun-f9f1e1)](https://github.com/kanchingyg/repomcp)
-[![license](https://img.shields.io/github/license/kanchingyg/repomcp)](https://github.com/kanchingyg/repomcp/blob/HEAD/LICENSE)
 
 Universal repo-to-MCP bridge: introspect a repository, expose guarded MCP tools over stdio, generate multi-harness configs (Pi, OMP, Hermes, cc-switch, Claude Code, Kilo Code, Roo Code, Cursor, Cline, OpenCode), normalize embeddings for code indexers, and adapt tool-calling for Chinese providers and raw local checkpoints.
 
